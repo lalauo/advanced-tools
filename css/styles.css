@@ -131,6 +131,10 @@ p {
     margin-top: 15px;
   }
 
+  .app-name.weather-app {
+    margin-top: -10px;
+  }
+
   .app-name {
     font-size: 37px;
   }
@@ -141,6 +145,12 @@ p {
     flex: auto;
     width: 100%;
   }
+
+  .row.yogurt,
+  .row.yoga {
+    flex-direction: column-reverse;
+  }
+
   .btn.primary-link {
     display: block;
     width: 50%;
@@ -148,7 +158,9 @@ p {
     padding: 20px 15px;
     font-size: 14px;
   }
-  .img-fluid.rounded.weather {
+  .img-fluid.rounded.yoga,
+  .img-fluid.rounded.weather,
+  .img-fluid.rounded.yogurt {
     margin-top: 20px;
   }
   .img-fluid.rounded.yoga,
